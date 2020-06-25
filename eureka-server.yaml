@@ -1,0 +1,9 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+info:
+  app:
+    description: This is eureka server on spring boot application
+    name: Eureka Server
+    version: 1.0.0
