@@ -8,6 +8,9 @@ info:
 zuul:
   ignored-services: '*'
   routes:
+    auth-admin:
+      path: /admin/**
+      service-id: auth-service
     auth-service:
       path: /auth/**
       service-id: auth-service
