@@ -17,5 +17,5 @@ zuul:
       service-id: auth-service
       strip-prefix: false
     customer-service:
-      path: customer-service
+      path: /customer-service/**
       service-id: customer-service
